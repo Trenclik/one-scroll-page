@@ -1,0 +1,30 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+}
+body section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#section_1{
+    background-color: blue;
+}
+#section_2{
+    background-color: blueviolet;
+}
+#section_3{
+    background-color: brown;
+}
